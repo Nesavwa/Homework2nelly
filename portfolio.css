@@ -1,19 +1,17 @@
-
-* {
-  box-sizing: border-box;
-}
-
 body {
     font-family: Arial;
     font-size: 24;
     background-color: rgb(237, 239, 241);
+   
+}
 
+h2 {
+  float: left;
+  font-size: 72;
+  height: 200px;
+  font-weight: bolder;
+  text-align: center;
 
-
-p {
-    float:right;
-    
-    
 }
 
 header {
@@ -40,7 +38,7 @@ header {
    
   .bottom-right {
     position: absolute;
-    bottom: 20px;
+    bottom: 300px;
     right: 20px;
     padding: 20px;
     background-color: chartreuse;
@@ -48,16 +46,16 @@ header {
   
   .bottom-right2 {
     position: absolute;
-    bottom: 20px;
+    bottom: 270px;
     right: 20px;
-    margin-top: 20px;
-    padding-top: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
     background-color: rgb(30, 173, 16)
   }
 
 
   .card {
-    background-color: #fff;
+    background-color:rgb(237, 239, 241);;
     width: 1500px;
     float: Right;
     padding: 20px;
@@ -66,32 +64,40 @@ header {
   }
 
   .card1 {
-    background-color: #fff;
+    background-color: rgb(237, 239, 241);;
     width: 1500px;
     float: Right;
     padding: 20px;
     height: 500px;
     border: none;
     padding color: blue;
-   
-    
+     
   }
-
-  .card2 {
-    background-color: #fff;
-    float: right 30%;
-    width: 750px;
-    padding: 20px;
-    height: 250px;
-    border: none
-   }
+  
+  .card1 > h3 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: rgb(30, 173, 16)
+    } 
 
   .card3 {
-    background-color: #fff;
+    background-color: rgb(237, 239, 241);;
     float: right;
-    width: 750px;
+    width: 730px;
     padding: 20px;
     height: 250px;
     border: none
    }
+
+   .card3 > h3 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: rgb(30, 173, 16)
+  } 
    
