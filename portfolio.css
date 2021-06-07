@@ -1,38 +1,25 @@
 
+* {
+  box-sizing: border-box;
+}
+
 body {
     font-family: Arial;
     font-size: 24;
     background-color: rgb(237, 239, 241);
-
-}
-  
-.float-left {
-    float: left;
-    font-size: 50;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-h2 {
-float: Left;
-font-size: 55;
-
-}
 
 
 
 p {
     float:right;
     
+    
 }
 
 header {
     padding: 50px;
     text-align: right;
-    background: #366fa5;
+    background: #e2ebf3;
     color: #fff;
     font-size: 20;
 }
@@ -48,9 +35,8 @@ header {
     position: normal;
     text-align: center;
     color: rgb(12, 12, 12);
-    
-
-  }
+    flex: Wrap;
+    }
    
   .bottom-right {
     position: absolute;
@@ -69,17 +55,43 @@ header {
     background-color: rgb(30, 173, 16)
   }
 
-  .content {
-    width: 100%;
-    display: inline-block;
-    margin-right: 20px;
-    border: none;
-}
 
-.bottom-left {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
+  .card {
+    background-color: #fff;
+    width: 1500px;
+    float: Right;
     padding: 20px;
-    background-color: chartreuse;
+    height: 200px;
+    border: none
   }
+
+  .card1 {
+    background-color: #fff;
+    width: 1500px;
+    float: Right;
+    padding: 20px;
+    height: 500px;
+    border: none;
+    padding color: blue;
+   
+    
+  }
+
+  .card2 {
+    background-color: #fff;
+    float: right 30%;
+    width: 750px;
+    padding: 20px;
+    height: 250px;
+    border: none
+   }
+
+  .card3 {
+    background-color: #fff;
+    float: right;
+    width: 750px;
+    padding: 20px;
+    height: 250px;
+    border: none
+   }
+   
