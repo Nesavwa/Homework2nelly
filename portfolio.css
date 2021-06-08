@@ -7,10 +7,23 @@ body {
 
 h2 {
   float: left;
-  font-size: 72;
+  font-size: 200
   height: 200px;
   font-weight: bolder;
   text-align: center;
+  color: red;
+
+}
+
+
+
+.section-title {
+
+float: left;
+width: 300px;
+border-right: rgb(12, 12, 12) solid 3px;
+
+
 
 }
 
@@ -38,7 +51,7 @@ header {
    
   .bottom-right {
     position: absolute;
-    bottom: 300px;
+    bottom: 100px;
     right: 20px;
     padding: 20px;
     background-color: chartreuse;
@@ -46,7 +59,7 @@ header {
   
   .bottom-right2 {
     position: absolute;
-    bottom: 270px;
+    bottom: 70px;
     right: 20px;
     margin-top: 10px;
     padding-top: 10px;
@@ -74,7 +87,7 @@ header {
      
   }
   
-  .card1 > h3 {
+  .card1 h3 {
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -92,7 +105,7 @@ header {
     border: none
    }
 
-   .card3 > h3 {
+   .card3 h3 {
     position: absolute;
     bottom: 20px;
     left: 20px;
