@@ -5,53 +5,46 @@ body {
    
 }
 
-h2 {
-  float: left;
-  font-size: 200
-  height: 200px;
-  font-weight: bolder;
-  text-align: center;
-  color: red;
-
-}
-
-
-
-.section-title {
-
-float: left;
-width: 300px;
-border-right: rgb(12, 12, 12) solid 3px;
-
-
-
-}
-
 header {
-    padding: 50px;
-    text-align: right;
-    background: #e2ebf3;
-    color: #fff;
-    font-size: 20;
+  padding: 50px;
+  text-align: right;
+  background: #e2ebf3;
+  color: #fff;
+  font-size: 20;
 }
 
 .header2 {
-    position: absolute;
-    top: 20px;
-    Left: 20px;
-    padding: 20px;
-    background-color: rgb(114, 235, 185);
-  }
+  position: absolute;
+  top: 20px;
+  Left: 20px;
+  padding: 20px;
+  background-color: rgb(114, 235, 185);
+}
+
+.section-title {
+float: left;
+width: 300px;
+border-right: rgb(17, 17, 17) solid 5px;
+color: Red;
+
+}
+
+.section-text {
+
+  float: right: ;;
+  width: 700px;
+  
+}
+
   .container {
     position: normal;
     text-align: center;
     color: rgb(12, 12, 12);
-    flex: Wrap;
-    }
+  }
    
   .bottom-right {
     position: absolute;
-    bottom: 100px;
+    bottom: 30px;
     right: 20px;
     padding: 20px;
     background-color: chartreuse;
@@ -59,7 +52,7 @@ header {
   
   .bottom-right2 {
     position: absolute;
-    bottom: 70px;
+    bottom: 2px
     right: 20px;
     margin-top: 10px;
     padding-top: 10px;
@@ -67,16 +60,7 @@ header {
   }
 
 
-  .card {
-    background-color:rgb(237, 239, 241);;
-    width: 1500px;
-    float: Right;
-    padding: 20px;
-    height: 200px;
-    border: none
-  }
-
-  .card1 {
+    .card {
     background-color: rgb(237, 239, 241);;
     width: 1500px;
     float: Right;
@@ -84,8 +68,19 @@ header {
     height: 500px;
     border: none;
     padding color: blue;
-     
+
+        
   }
+
+  .card2 {
+    background-color: rgb(237, 239, 241);;
+    float: right;
+    width: 730px;
+    padding: 20px;
+    height: 250px;
+    border: none
+   }
+
   
   .card1 h3 {
     position: absolute;
@@ -96,14 +91,7 @@ header {
     background-color: rgb(30, 173, 16)
     } 
 
-  .card3 {
-    background-color: rgb(237, 239, 241);;
-    float: right;
-    width: 730px;
-    padding: 20px;
-    height: 250px;
-    border: none
-   }
+ 
 
    .card3 h3 {
     position: absolute;
