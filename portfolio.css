@@ -15,9 +15,9 @@ header {
 
 .header2 {
   position: absolute;
-  top: 20px;
-  Left: 20px;
-  padding: 20px;
+  top: 10px;
+  nav-left: 20px;
+  padding: 10px;
   background-color: rgb(114, 235, 185);
 }
 
@@ -37,10 +37,11 @@ margin-left: 10px;
 .description {
 display: flex;
 
+
+
 }
 
-/* .flexcontainer { */
-  
+ 
 .container {
   position: relative;
   text-align: center;
@@ -81,7 +82,7 @@ display: flex;
 }
 
 
-  .card {
+.card {
   position: relative;
   padding: 20px;
   border:cornflowerblue 3px
@@ -90,24 +91,36 @@ display: flex;
 }
 
 .card img {
-  width: 1625px;
+  width: 1631px;
   height: 500px;
+ 
+
+}
+
+.grid {
+display: grid;
+grid-template-columns:900px 900px;
+margin-left: 211px;
+border-left: black solid 5px;
+
 
 
 }
 .card1 {
   position: relative;
   background-color: rgb(237, 239, 241);
-  width: 700px;
   padding: 10px;
   height: 200px;
-  border: solid cornflowerblue 3px;
-   
+  border: 0;
+  
+    
 }
 
 .card1 img {
   width: 700px;
   margin: 10;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
 
 }
 
@@ -115,11 +128,23 @@ display: flex;
   margin-right: 20px;
   text-decoration-line: underline;
   text-decoration-style: solid;
-  flex-direction: row;
+  }
+
+  .contact ul {
+    list-style: none;
+    display: inline-block;
+
+    
+  }
+
+  .contact ul li{
+
+    list-style-type: none;
+    display: inline-block;
+
+       
+  }
   
-
-}
-
 .footer {
   text-align: center;
   padding: 30px;
@@ -127,5 +152,32 @@ display: flex;
   color: white;
 }
 
+@media (max-width: 900px) {
+.card img {
+  flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 900px) {
+  .grid {
+    flex-wrap: wrap;
+  }
+  
+}
+
+@media (max-width: 900px) {
+  .container img {
+      flex-wrap: wrap;
+    }
+    
+}
 
 
+
+
+
+
+
+
+  
