@@ -1,7 +1,5 @@
 # Homework2nelly
 
-# Homework1nelly
-
 Introduction
 
 This is Nelly Torques Portifolio Website. It showcases her portfolio of work, skills and talents that she has to offer employers looking to fill a part-time or full-time position. In this portfolio you will get to know Nelly's strongest work as well as the thought processes behind it. 
