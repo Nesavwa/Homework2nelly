@@ -6,8 +6,7 @@ This is Nelly Torques Portifolio Website. It showcases her portfolio of work, sk
 
 Below are some of the screen shots of my work
 
-
-
+![image](https://user-images.githubusercontent.com/82584783/121813836-69651d00-cca0-11eb-9b77-d80607e20251.png)
 
 
 
